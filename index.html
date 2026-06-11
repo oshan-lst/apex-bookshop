@@ -80,7 +80,24 @@
     <p>Fill out this form to reserve your books before coming to the store.</p>
     <from>
         <fieldset>
-            <legend>Order Details<legend>
+            <legend>Order Details</legend>
+        <lable for="name">Student Admission</lable><br>
+        <input type="text" id="name" placeholder="e.g. ST-1234" name="name">
+        <br><br>
+        <lable for="select">Select Book to Reserve</lable><br>
+        <select id="price" name="price">
+            <option>The Secret Island (Rs. 850.00)</option>
+            <option>Madol Duwa (Rs. 600.00)</option>
+        </select>
+        <br><br>
+        <lable for="date">Preferred Collection Date:</lable><br>
+        <input type="date" name="dob" placeholder="mm/dd/yyyy">
+        <br><br>
+        <lable for="note">Special Notes/Instruction</lable><br>
+        <textarea placeholder="Any Specific reqirments..."></textarea>
+        <br><br>
+        <button type="submit">Submit Reservation</button>
+        <button type="delete">Reset Form</button>
         </fieldset>
     </from>
 
