@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apex bookshop</title>
 </head>
+
 <body>
     <h1>📚Apex Bookshop & Stationers</h1>
     <p>Welcome to our school bookshop.Use the quick links below to jump straight to your section:</p>
     <ul>
         <li>
-            <a href="***">Story book Section</a>
+            <a href="#story">Story book Section</a>
         </li>
-        <li> <a href="***">Textbooks Section</a></li>
-        <li> <a href="****">Place an Order</a></li>
+        <li> <a href="#textbook">Textbooks Section</a></li>
+        <li> <a href="#place">Place an Order</a></li>
     </ul>
     <hr>
-    <h2>📖 Story Books Selection</h2>
+    <h2 id="story">📖 Story Books Selection</h2>
     <table border="1" cellpadding="15" cellspacing="0">
         <tr>
             <th>Book Cover</th>
@@ -25,22 +27,25 @@
             <th>Availability</th>
         </tr>
         <tr>
-            <td> <img width="100" height="150" src="assets/img/ChatGPT Image Jun 11, 2026, 08_28_43 PM.png" alt="book cover 1"></td>
+            <td> <img width="100" height="150" src="assets/img/ChatGPT Image Jun 11, 2026, 08_28_43 PM.png"
+                    alt="book cover 1"></td>
             <td><b>The Secret Island</b>
-            <p>Author:Enid Blyton</p>
-            <br>
-            An exicting adventure story about four children spending their holidays on a hidden Island
+                <p>Author:Enid Blyton</p>
+                <br>
+                An exicting adventure story about four children spending their holidays on a hidden Island
             </td>
             <td>Rs 850.00</td>
             <td><mark>In Stock</mark></td>
         </tr>
         <tr>
-            <td> <img width="100" height="150" src="assets/img/ChatGPT Image Jun 11, 2026, 08_30_52 PM.png" alt="book cover 2"></td>
+            <td> <img width="100" height="150" src="assets/img/ChatGPT Image Jun 11, 2026, 08_30_52 PM.png"
+                    alt="book cover 2"></td>
             <td>
                 <b>Madol Duwa</b>
                 <p>Author: Martin Wickramasinha</p>
                 <br>
-                A Classic Sinhales novel translated into English,showcasing the lives of teenage boys on an isolated island.
+                A Classic Sinhales novel translated into English,showcasing the lives of teenage boys on an isolated
+                island.
             </td>
             <td>Rs 600.00</td>
             <td><mark>In Stock</mark></td>
@@ -49,7 +54,7 @@
     <br><br>
     <a href="#top">🔺 Back to Top</a>
     <hr>
-    <h2>📝 School Textbooks</h2>
+    <h2 id="textbook">📝 School Textbooks</h2>
     <table border="1" cellpadding="15" cellspacing="0">
         <tr>
             <th>Subject</th>
@@ -76,32 +81,32 @@
     <br><br>
     <a href="#top">🔺 Back to Top</a>
     <hr>
-    <h2>🛒 Quick Order Reservatio</h2>
+    <h2 id="place">🛒 Quick Order Reservatio</h2>
     <p>Fill out this form to reserve your books before coming to the store.</p>
     <from>
         <fieldset>
             <legend>Order Details</legend>
-        <lable for="name">Student Admission</lable><br>
-        <input type="text" id="name" placeholder="e.g. ST-1234" name="name">
-        <br><br>
-        <lable for="select">Select Book to Reserve</lable><br>
-        <select id="price" name="price">
-            <option>The Secret Island (Rs. 850.00)</option>
-            <option>Madol Duwa (Rs. 600.00)</option>
-        </select>
-        <br><br>
-        <lable for="date">Preferred Collection Date:</lable><br>
-        <input type="date" name="dob" placeholder="mm/dd/yyyy">
-        <br><br>
-        <lable for="note">Special Notes/Instruction</lable><br>
-        <textarea placeholder="Any Specific reqirments..."></textarea>
-        <br><br>
-        <button type="submit">Submit Reservation</button>
-        <button type="delete">Reset Form</button>
+            <lable for="name">Student Admission</lable><br>
+            <input type="text" id="name" placeholder="e.g. ST-1234" name="name">
+            <br><br>
+            <lable for="select">Select Book to Reserve</lable><br>
+            <select id="price" name="price">
+                <option>The Secret Island (Rs. 850.00)</option>
+                <option>Madol Duwa (Rs. 600.00)</option>
+            </select>
+            <br><br>
+            <lable for="date">Preferred Collection Date:</lable><br>
+            <input type="date" name="dob" placeholder="mm/dd/yyyy">
+            <br><br>
+            <lable for="note">Special Notes/Instruction</lable><br>
+            <textarea placeholder="Any Specific reqirments..."></textarea>
+            <br><br>
+            <button type="submit">Submit Reservation</button>
+            <button type="delete">Reset Form</button>
         </fieldset>
     </from>
-
-
-
+    <br><br>
+    <small>@ 2026 Apex School Bookshop Mangement System.</small>
 </body>
+
 </html>
